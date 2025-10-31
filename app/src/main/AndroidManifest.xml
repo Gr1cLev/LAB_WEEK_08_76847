@@ -22,9 +22,10 @@
             android:exported="true"
             android:foregroundServiceType="dataSync"></service>
         <service
-            android:name=".MyService"
+            android:name=".SecondNotificationService"
             android:enabled="true"
-            android:exported="true" />
+            android:exported="true"
+            android:foregroundServiceType="dataSync"></service>
 
         <activity
             android:name=".MainActivity"
